@@ -1,0 +1,50 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>cfaf682b-0174-4ace-8076-845a8df99973</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>labs\Lab 3.2.1.11 The continue statement - the Pretty Vowel Eater.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonPCEP</Name>
+    <RootNamespace>PythonPCEP</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="labs\Lab 2.4.1.10.py" />
+    <Compile Include="labs\Lab 2.4.1.9 Variables.py" />
+    <Compile Include="labs\Lab 2.5.1.2 Comments.py" />
+    <Compile Include="labs\Lab 3.1.1.10 Comparison operators and conditional execution.py" />
+    <Compile Include="labs\Lab 3.1.1.11 Essentials of the if-else statement.py" />
+    <Compile Include="labs\Lab 3.1.1.12 Essentials of the if-elif-else statement.py" />
+    <Compile Include="labs\Lab 3.2.1.10 The continue statement - the Ugly Vowel Eater.py" />
+    <Compile Include="labs\Lab 3.2.1.11 The continue statement - the Pretty Vowel Eater.py" />
+    <Compile Include="labs\Lab 3.2.1.3 Essentials of the while loop - Guess the secret number.py" />
+    <Compile Include="labs\Lab 3.2.1.6 Essentials of the for loop - counting mississippily.py" />
+    <Compile Include="labs\Lab 3.2.1.9 The break statement - Stuck in a loop.py" />
+    <Compile Include="labs\module1.py" />
+    <Compile Include="PythonPCEP.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="labs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
