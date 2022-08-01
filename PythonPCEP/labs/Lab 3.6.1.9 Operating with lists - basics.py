@@ -23,6 +23,6 @@ for number in my_list:  # The for conditional loop will check each element in tu
     else:
         continue  # The continue keyword prompts the programme to move onto the next line within the loop's body
 
-print("The list with unique elements only:",
-      non_repetitive_list)  # This ouputs the em
+# This ouputs the non_repetitive_list
+print("The list with unique elements only:", non_repetitive_list)
 print(my_list)
